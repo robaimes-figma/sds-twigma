@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Verify the dev server is reachable on $PORT.
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+set -a
+. .figma/make/env
+set +a
+
+URL="http://localhost:${PORT}"
+
+for i in $(seq 1 30); do
+  if curl -sSf -o /dev/null "$URL"; then
+    echo "Dev server is reachable at $URL"
+    exit 0
+  fi
+  sleep 1
+done
+
+echo "Error: dev server did not become reachable at $URL" >&2
+exit 1

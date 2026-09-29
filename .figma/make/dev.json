@@ -1,0 +1,114 @@
+{
+  "pointAndEdit": {
+    "priorityPaths": {
+      "prefer": [
+        "src/App.tsx",
+        "src/examples/**/*.{tsx,ts}"
+      ],
+      "deprioritize": [
+        "src/ui/compositions/**/*.{tsx,ts}",
+        "src/ui/primitives/**/*.{tsx,ts}",
+        "src/ui/layout/**/*.{tsx,ts}",
+        "src/ui/icons/**/*.{tsx,ts}",
+        "src/ui/hooks/**/*.{tsx,ts}",
+        "src/ui/utils/**/*.{tsx,ts}",
+        "src/ui/**/*.css",
+        "src/data/**/*.{tsx,ts}"
+      ],
+      "exclude": [
+        "src/figma/**",
+        "src/stories/**",
+        "scripts/**",
+        "**/*.stories.{tsx,ts,jsx,js}",
+        "**/*.figma.ts",
+        "**/*.figma.tsx",
+        "**/*.figma.js",
+        "**/*.figma.jsx",
+        "**/*.figma.batch.json",
+        "**/*.figma.batch.ts",
+        ".storybook/**",
+        "dist/**",
+        "node_modules/**"
+      ]
+    },
+    "libraryPaths": {
+      "local": [
+        "src/ui/compositions/**/*.{tsx,ts}",
+        "src/ui/primitives/**/*.{tsx,ts}",
+        "src/ui/layout/**/*.{tsx,ts}",
+        "src/ui/icons/**/*.{tsx,ts}",
+        "src/ui/hooks/**/*.{tsx,ts}",
+        "src/ui/utils/**/*.{tsx,ts}"
+      ],
+      "external": [
+        "node_modules/react-aria-components/**"
+      ]
+    },
+    "pathClassification": {
+      "classifier": "sonnet"
+    },
+    "exclusions": [
+      {
+        "glob": "src/figma/**",
+        "reason": "All files under src/figma/ are Figma Code Connect mapping files (.figma.ts, .figma.batch.ts, .figma.batch.json) and should never be selected as a UI point-and-edit source anchor."
+      },
+      {
+        "glob": "src/stories/**",
+        "reason": "Storybook story files are documentation/catalog artifacts, not active UI source anchors."
+      },
+      {
+        "glob": "**/*.stories.{tsx,ts,jsx,js}",
+        "reason": "Storybook story files located anywhere in the repo are not UI source anchors."
+      },
+      {
+        "glob": "**/*.figma.ts",
+        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "**/*.figma.tsx",
+        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "**/*.figma.js",
+        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "**/*.figma.jsx",
+        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "**/*.figma.batch.json",
+        "reason": "Figma Code Connect batch mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "**/*.figma.batch.ts",
+        "reason": "Figma Code Connect batch mapping files must not be selected as point-and-edit source anchors."
+      },
+      {
+        "glob": "scripts/**",
+        "reason": "Build/tooling scripts (icon generation, token extraction, dev-resource scripts) are not UI source anchors."
+      },
+      {
+        "glob": ".storybook/**",
+        "reason": "Storybook configuration files are tooling, not UI source anchors."
+      },
+      {
+        "glob": "dist/**",
+        "reason": "Build output should never be edited as a source anchor."
+      },
+      {
+        "glob": "node_modules/**",
+        "reason": "Third-party installed packages are not source anchors for point-and-edit edits."
+      }
+    ],
+    "generated": {
+      "schemaVersion": 2,
+      "source": "setup-agent.point-and-edit-path-classifier",
+      "prompt": "same-turn-setup-subagent-v5",
+      "model": "claude-sonnet-4-6",
+      "createdAt": "2026-09-29T00:00:00.000Z",
+      "confidence": 0.93,
+      "explanation": "The repo has a clear active-app layer in src/examples/ and src/App.tsx composing from a well-bounded local design-system library under src/ui/, with all Figma Code Connect files isolated under src/figma/ making classification unambiguous."
+    }
+  }
+}

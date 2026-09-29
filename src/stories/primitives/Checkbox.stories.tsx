@@ -1,6 +1,6 @@
-import { useArgs } from "@storybook/preview-api";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Checkbox, CheckboxField, CheckboxGroup } from "primitives";
+import { useState } from "react";
 
 const meta: Meta<typeof Checkbox> = {
   component: Checkbox,
@@ -19,13 +19,13 @@ export const StoryCheckboxField: Story = {
     isDisabled: false,
   },
   render: (args) => {
-    const [{ isSelected }, updateArgs] = useArgs();
+    const [isSelected, setIsSelected] = useState(args.isSelected);
     return (
       <CheckboxField
         isDisabled={args.isDisabled}
         isSelected={isSelected}
         isIndeterminate={args.isIndeterminate}
-        onChange={() => updateArgs({ isSelected: !isSelected })}
+        onChange={() => setIsSelected((prev) => !prev)}
         label="This is a checkbox"
         description="This is a checkbox description"
       />

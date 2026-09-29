@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# First-open setup: verify system prerequisites are present.
+# Node dependencies are handled by `install`; nothing to compile here.
+set -euo pipefail
+
+echo "Checking system prerequisites..."
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "Error: Node.js is not installed." >&2
+  exit 1
+fi
+
+if ! command -v npm >/dev/null 2>&1; then
+  echo "Error: npm is not installed." >&2
+  exit 1
+fi
+
+echo "Node $(node -v) / npm $(npm -v) available."
+echo "Setup complete."

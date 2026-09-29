@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Start the Vite dev server bound to $PORT from .figma/make/env.
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+# Load PORT (and any other vars) from the make env file.
+set -a
+. .figma/make/env
+set +a
+
+exec npm run app:dev -- --host --port "$PORT" --strictPort
