@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Modal",
+    "filePath": "node_modules/react-aria-components/src/Modal.tsx"
+  },
+  "codeProperties": {
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Whether the modal is open."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the modal is open by default (uncontrolled)."
+    },
+    "isDismissable": {
+      "type": "boolean",
+      "name": "Dismissable",
+      "description": "Whether the modal can be dismissed by clicking outside it."
+    },
+    "isKeyboardDismissDisabled": {
+      "type": "boolean",
+      "name": "Keyboard Dismiss Disabled",
+      "description": "Whether pressing the Escape key to close the modal is disabled."
+    },
+    "isEntering": {
+      "type": "boolean",
+      "name": "Is Entering",
+      "description": "Whether the modal is currently performing an entry animation."
+    },
+    "isExiting": {
+      "type": "boolean",
+      "name": "Is Exiting",
+      "description": "Whether the modal is currently performing an exit animation."
+    }
+  }
+}

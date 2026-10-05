@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Select",
+    "filePath": "node_modules/react-aria-components/src/Select.tsx"
+  },
+  "codeProperties": {
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "Temporary text that occupies the select when it is empty."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the select is disabled.",
+      "defaultValue": false
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the select is required.",
+      "defaultValue": false
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the select is invalid.",
+      "defaultValue": false
+    },
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Whether the select listbox is open (controlled)."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the select listbox is open by default (uncontrolled)."
+    },
+    "autoComplete": {
+      "type": "string",
+      "name": "Auto Complete",
+      "description": "Describes the type of autocomplete functionality the browser should provide."
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "description": "Whether the select should be focused on mount."
+    },
+    "name": {
+      "type": "string",
+      "name": "Name",
+      "description": "The name of the select, used when submitting an HTML form."
+    }
+  }
+}

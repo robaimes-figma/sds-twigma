@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Breadcrumbs",
+    "filePath": "node_modules/react-aria-components/src/Breadcrumbs.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Meter",
+    "filePath": "node_modules/react-aria-components/src/Meter.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The current value of the meter.",
+      "defaultValue": 0
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value",
+      "description": "The minimum value of the meter.",
+      "defaultValue": 0
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value",
+      "description": "The maximum value of the meter.",
+      "defaultValue": 100
+    }
+  }
+}

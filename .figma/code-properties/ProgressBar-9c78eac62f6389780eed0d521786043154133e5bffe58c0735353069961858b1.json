@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ProgressBar",
+    "filePath": "node_modules/react-aria-components/src/ProgressBar.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The current value of the progress bar.",
+      "defaultValue": 0
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value",
+      "description": "The minimum value of the progress bar.",
+      "defaultValue": 0
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value",
+      "description": "The maximum value of the progress bar.",
+      "defaultValue": 100
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "name": "Indeterminate",
+      "description": "Whether the progress bar is indeterminate.",
+      "defaultValue": false
+    }
+  }
+}

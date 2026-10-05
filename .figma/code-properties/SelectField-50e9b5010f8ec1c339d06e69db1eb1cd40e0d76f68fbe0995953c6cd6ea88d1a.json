@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectField",
+    "filePath": "src/ui/primitives/Select/Select.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "Label text displayed above the select field."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the select."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "Validation error message displayed for the select."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the select field is disabled."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the select field is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the select field is in an invalid state."
+    }
+  }
+}

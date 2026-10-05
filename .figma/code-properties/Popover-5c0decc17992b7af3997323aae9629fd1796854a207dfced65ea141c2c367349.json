@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Popover",
+    "filePath": "node_modules/react-aria-components/src/Popover.tsx"
+  },
+  "codeProperties": {
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Whether the popover is open (controlled)."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the popover is open by default (uncontrolled)."
+    },
+    "trigger": {
+      "type": "string",
+      "name": "Trigger",
+      "description": "The name of the component that triggered the popover, reflected as the data-trigger attribute."
+    },
+    "placement": {
+      "type": "string",
+      "name": "Placement",
+      "description": "The placement of the popover relative to the trigger.",
+      "options": [
+        "bottom",
+        "bottom start",
+        "bottom end",
+        "top",
+        "top start",
+        "top end",
+        "left",
+        "left top",
+        "left bottom",
+        "right",
+        "right top",
+        "right bottom"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "bottom": "Bottom",
+          "bottom start": "Bottom Start",
+          "bottom end": "Bottom End",
+          "top": "Top",
+          "top start": "Top Start",
+          "top end": "Top End",
+          "left": "Left",
+          "left top": "Left Top",
+          "left bottom": "Left Bottom",
+          "right": "Right",
+          "right top": "Right Top",
+          "right bottom": "Right Bottom"
+        }
+      }
+    },
+    "offset": {
+      "type": "number",
+      "name": "Offset",
+      "description": "The additional offset applied along the main axis between the element and its anchor element.",
+      "defaultValue": 8
+    },
+    "crossOffset": {
+      "type": "number",
+      "name": "Cross Offset",
+      "description": "The additional offset applied along the cross axis."
+    },
+    "isNonModal": {
+      "type": "boolean",
+      "name": "Non Modal",
+      "description": "Whether the popover is non-modal, i.e. elements outside the popover may be interacted with."
+    },
+    "isDismissable": {
+      "type": "boolean",
+      "name": "Dismissable",
+      "description": "Whether the popover can be dismissed by clicking outside it."
+    },
+    "isKeyboardDismissDisabled": {
+      "type": "boolean",
+      "name": "Keyboard Dismiss Disabled",
+      "description": "Whether pressing the Escape key to close the popover is disabled."
+    },
+    "shouldFlip": {
+      "type": "boolean",
+      "name": "Should Flip",
+      "description": "Whether the popover should flip its orientation when there is insufficient room."
+    },
+    "isEntering": {
+      "type": "boolean",
+      "name": "Is Entering",
+      "description": "Whether the popover is currently performing an entry animation."
+    },
+    "isExiting": {
+      "type": "boolean",
+      "name": "Is Exiting",
+      "description": "Whether the popover is currently performing an exit animation."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToggleButton",
+    "filePath": "node_modules/react-aria-components/src/ToggleButton.tsx"
+  },
+  "codeProperties": {
+    "isSelected": {
+      "type": "boolean",
+      "name": "Selected",
+      "description": "Whether the button is selected (controlled)."
+    },
+    "defaultSelected": {
+      "type": "boolean",
+      "name": "Default Selected",
+      "description": "Whether the button is selected by default (uncontrolled)."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the button is disabled."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Separator",
+    "filePath": "node_modules/react-aria-components/src/Separator.tsx"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The orientation of the separator.",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "elementType": {
+      "type": "string",
+      "name": "Element Type",
+      "description": "The HTML element type used to render the separator.",
+      "defaultValue": "hr"
+    }
+  }
+}

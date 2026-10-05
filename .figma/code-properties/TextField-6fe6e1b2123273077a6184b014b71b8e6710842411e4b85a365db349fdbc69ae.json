@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextField",
+    "filePath": "node_modules/react-aria-components/src/TextField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the text field is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the text field is read only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the text field is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the value is invalid."
+    },
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "description": "The type of the input element."
+    },
+    "inputMode": {
+      "type": "string",
+      "name": "Input Mode",
+      "description": "Hints at the type of data that might be entered by the user.",
+      "options": [
+        "none",
+        "text",
+        "decimal",
+        "numeric",
+        "tel",
+        "search",
+        "email",
+        "url"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "none": "None",
+          "text": "Text",
+          "decimal": "Decimal",
+          "numeric": "Numeric",
+          "tel": "Telephone",
+          "search": "Search",
+          "email": "Email",
+          "url": "URL"
+        }
+      }
+    },
+    "autoComplete": {
+      "type": "string",
+      "name": "Auto Complete",
+      "description": "Describes the type of autocomplete functionality."
+    },
+    "maxLength": {
+      "type": "number",
+      "name": "Max Length",
+      "description": "The maximum number of characters supported by the input."
+    },
+    "minLength": {
+      "type": "number",
+      "name": "Min Length",
+      "description": "The minimum number of characters required by the input."
+    },
+    "pattern": {
+      "type": "string",
+      "name": "Pattern",
+      "description": "A regular expression that the value must match to pass validation."
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "Temporary text that occupies the text input when it is empty."
+    },
+    "value": {
+      "type": "string",
+      "name": "Value",
+      "description": "The current value (controlled)."
+    },
+    "defaultValue": {
+      "type": "string",
+      "name": "Default Value",
+      "description": "The default value (uncontrolled)."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "BreadcrumbItem",
+    "filePath": "src/ui/primitives/Breadcrumbs/Breadcrumbs.tsx"
+  },
+  "codeProperties": {
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "options": [
+        "",
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default (inherited)",
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "current": {
+      "type": "boolean",
+      "name": "Current",
+      "defaultValue": false
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "icon": {
+      "type": {
+        "name": "other",
+        "value": "figma-reference"
+      },
+      "name": "Icon",
+      "control": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectionIndicator",
+    "filePath": "node_modules/react-aria-components/src/SelectionIndicator.tsx"
+  },
+  "codeProperties": {
+    "isSelected": {
+      "type": "boolean",
+      "name": "Selected",
+      "description": "Whether the selection indicator is in a selected state.",
+      "defaultValue": false
+    }
+  }
+}

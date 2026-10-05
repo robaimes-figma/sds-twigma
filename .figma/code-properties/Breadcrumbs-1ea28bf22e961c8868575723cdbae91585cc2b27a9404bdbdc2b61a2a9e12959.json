@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Breadcrumbs",
+    "filePath": "src/ui/primitives/Breadcrumbs/Breadcrumbs.tsx"
+  },
+  "codeProperties": {
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "separator": {
+      "type": "string",
+      "name": "Separator",
+      "defaultValue": "chevron",
+      "options": [
+        "chevron",
+        "slash"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "chevron": "Chevron",
+          "slash": "Slash"
+        }
+      }
+    }
+  }
+}

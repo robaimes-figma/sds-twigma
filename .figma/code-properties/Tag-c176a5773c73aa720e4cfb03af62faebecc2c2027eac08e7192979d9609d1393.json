@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tag",
+    "filePath": "node_modules/react-aria-components/src/TagGroup.tsx"
+  },
+  "codeProperties": {
+    "textValue": {
+      "type": "string",
+      "name": "Text Value",
+      "description": "A string representation of the tag's contents, used for accessibility."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the tag is disabled."
+    }
+  }
+}

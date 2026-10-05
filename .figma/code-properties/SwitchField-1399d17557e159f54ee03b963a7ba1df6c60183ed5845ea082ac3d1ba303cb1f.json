@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SwitchField",
+    "filePath": "src/ui/primitives/Switch/Switch.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "Label text for the switch field."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the switch."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "Validation error message for the switch field."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the switch field is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the switch field is read-only."
+    },
+    "isSelected": {
+      "type": "boolean",
+      "name": "Selected",
+      "description": "Whether the switch is selected/on."
+    },
+    "defaultSelected": {
+      "type": "boolean",
+      "name": "Default Selected",
+      "description": "The default selected state of the switch."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "FileTrigger",
+    "filePath": "node_modules/react-aria-components/src/FileTrigger.tsx"
+  },
+  "codeProperties": {
+    "allowsMultiple": {
+      "type": "boolean",
+      "name": "Allows Multiple"
+    },
+    "acceptDirectory": {
+      "type": "boolean",
+      "name": "Accept Directory"
+    },
+    "defaultCamera": {
+      "type": "string",
+      "name": "Default Camera",
+      "options": [
+        "",
+        "user",
+        "environment"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "user": "User (Front)",
+          "environment": "Environment (Rear)"
+        }
+      }
+    }
+  }
+}

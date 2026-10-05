@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextPrice",
+    "filePath": "src/ui/primitives/Text/Text.tsx"
+  },
+  "codeProperties": {
+    "currency": {
+      "type": "string",
+      "name": "Currency",
+      "description": "The currency symbol displayed as superscript"
+    },
+    "price": {
+      "type": "string",
+      "name": "Price",
+      "description": "The price value excluding currency"
+    },
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "Optional label text below the price"
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "large",
+      "options": [
+        "small",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "large": "Large"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "src/ui/primitives/Tooltip/Tooltip.tsx"
+  },
+  "codeProperties": {
+    "offset": {
+      "type": "number",
+      "name": "Offset",
+      "description": "The distance in pixels between the tooltip and its trigger element.",
+      "defaultValue": 16
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Section",
+    "filePath": "src/ui/layout/Section/Section.tsx"
+  },
+  "codeProperties": {
+    "elementType": {
+      "name": "Element Type",
+      "type": "string",
+      "defaultValue": "section",
+      "options": [
+        "section",
+        "header",
+        "footer"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "section": "Section",
+          "header": "Header",
+          "footer": "Footer"
+        }
+      }
+    },
+    "variant": {
+      "name": "Variant",
+      "type": "string",
+      "defaultValue": "subtle",
+      "options": [
+        "brand",
+        "neutral",
+        "stroke",
+        "subtle",
+        "image"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "brand": "Brand",
+          "neutral": "Neutral",
+          "stroke": "Stroke",
+          "subtle": "Subtle",
+          "image": "Image"
+        }
+      }
+    },
+    "padding": {
+      "name": "Padding",
+      "type": "string",
+      "defaultValue": "600",
+      "options": [
+        "600",
+        "800",
+        "1200",
+        "1600",
+        "4000"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "4000": "4000"
+        }
+      }
+    },
+    "paddingTop": {
+      "name": "Padding Top",
+      "type": "string",
+      "options": [
+        "",
+        "600",
+        "800",
+        "1200",
+        "1600",
+        "4000"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "4000": "4000",
+          "": "Default"
+        }
+      }
+    },
+    "paddingBottom": {
+      "name": "Padding Bottom",
+      "type": "string",
+      "options": [
+        "",
+        "600",
+        "800",
+        "1200",
+        "1600",
+        "4000"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "4000": "4000",
+          "": "Default"
+        }
+      }
+    },
+    "src": {
+      "name": "Image Src",
+      "description": "An image src (used when variant is \"image\")",
+      "type": "string"
+    }
+  }
+}

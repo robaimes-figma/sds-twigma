@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboBox",
+    "filePath": "node_modules/react-aria-components/src/ComboBox.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "defaultValue": false
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false
+    },
+    "allowsCustomValue": {
+      "type": "boolean",
+      "name": "Allows Custom Value"
+    },
+    "formValue": {
+      "type": "string",
+      "name": "Form Value",
+      "defaultValue": "key",
+      "options": [
+        "text",
+        "key"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "text": "Text",
+          "key": "Key"
+        }
+      }
+    },
+    "allowsEmptyCollection": {
+      "type": "boolean",
+      "name": "Allows Empty Collection"
+    }
+  }
+}

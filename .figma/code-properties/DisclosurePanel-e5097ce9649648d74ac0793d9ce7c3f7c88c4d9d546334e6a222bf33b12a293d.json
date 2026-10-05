@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DisclosurePanel",
+    "filePath": "node_modules/react-aria-components/src/Disclosure.tsx"
+  },
+  "codeProperties": {
+    "role": {
+      "type": "string",
+      "name": "Role",
+      "defaultValue": "group",
+      "options": [
+        "group",
+        "region"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "group": "Group",
+          "region": "Region"
+        }
+      }
+    }
+  }
+}

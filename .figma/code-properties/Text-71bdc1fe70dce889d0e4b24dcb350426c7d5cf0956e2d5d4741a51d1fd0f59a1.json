@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Text",
+    "filePath": "node_modules/react-aria-components/src/Text.tsx"
+  },
+  "codeProperties": {
+    "elementType": {
+      "type": "string",
+      "name": "Element Type",
+      "description": "The HTML element type to render.",
+      "defaultValue": "span"
+    }
+  }
+}

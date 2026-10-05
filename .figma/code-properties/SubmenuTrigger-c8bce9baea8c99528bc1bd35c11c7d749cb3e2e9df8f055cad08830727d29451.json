@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SubmenuTrigger",
+    "filePath": "node_modules/react-aria-components/src/Menu.tsx"
+  },
+  "codeProperties": {
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "defaultValue": 200
+    }
+  }
+}

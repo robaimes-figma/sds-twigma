@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DisclosureGroup",
+    "filePath": "node_modules/react-aria-components/src/Disclosure.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "allowsMultipleExpanded": {
+      "type": "boolean",
+      "name": "Allows Multiple Expanded"
+    }
+  }
+}

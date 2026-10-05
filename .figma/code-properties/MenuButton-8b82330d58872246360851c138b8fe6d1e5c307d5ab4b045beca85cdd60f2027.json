@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuButton",
+    "filePath": "src/ui/primitives/Menu/Menu.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label text for the menu trigger button."
+    }
+  }
+}

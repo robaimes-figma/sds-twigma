@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NumberField",
+    "filePath": "node_modules/react-aria-components/src/NumberField.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The current value of the number field (controlled)."
+    },
+    "defaultValue": {
+      "type": "number",
+      "name": "Default Value",
+      "description": "The default value of the number field (uncontrolled)."
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value",
+      "description": "The minimum allowed value."
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value",
+      "description": "The maximum allowed value."
+    },
+    "step": {
+      "type": "number",
+      "name": "Step",
+      "description": "The amount the value changes with each increment or decrement."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the number field is disabled.",
+      "defaultValue": false
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the number field is read only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the number field is required.",
+      "defaultValue": false
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the number field is invalid.",
+      "defaultValue": false
+    },
+    "isWheelDisabled": {
+      "type": "boolean",
+      "name": "Wheel Disabled",
+      "description": "Whether scrolling the mouse wheel changes the value."
+    },
+    "formatOptions": {
+      "type": {
+        "name": "other",
+        "value": "figma-reference"
+      },
+      "name": "Format Options",
+      "description": "Formatting options for the displayed value.",
+      "control": false
+    }
+  }
+}

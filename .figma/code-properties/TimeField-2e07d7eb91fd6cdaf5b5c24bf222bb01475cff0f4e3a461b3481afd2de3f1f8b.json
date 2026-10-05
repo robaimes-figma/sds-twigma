@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TimeField",
+    "filePath": "node_modules/react-aria-components/src/DateField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid"
+    },
+    "hideTimeZone": {
+      "type": "boolean",
+      "name": "Hide Time Zone"
+    },
+    "shouldForceLeadingZeros": {
+      "type": "boolean",
+      "name": "Force Leading Zeros"
+    }
+  }
+}

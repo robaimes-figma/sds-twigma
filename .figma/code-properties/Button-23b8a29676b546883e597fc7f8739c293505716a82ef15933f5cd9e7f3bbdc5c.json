@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Button",
+    "filePath": "node_modules/react-aria-components/src/Button.tsx"
+  },
+  "codeProperties": {
+    "isPending": {
+      "type": "boolean",
+      "name": "Pending",
+      "defaultValue": false
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    }
+  }
+}

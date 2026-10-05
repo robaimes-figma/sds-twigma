@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Input",
+    "filePath": "node_modules/react-aria-components/src/Input.tsx"
+  },
+  "codeProperties": {
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    }
+  }
+}

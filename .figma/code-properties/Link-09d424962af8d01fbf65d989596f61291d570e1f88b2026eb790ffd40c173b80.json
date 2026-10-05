@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Link",
+    "filePath": "node_modules/react-aria-components/src/Link.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "href": {
+      "type": "string",
+      "name": "Href"
+    },
+    "target": {
+      "type": "string",
+      "name": "Target"
+    },
+    "rel": {
+      "type": "string",
+      "name": "Rel"
+    }
+  }
+}

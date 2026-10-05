@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "GridListLoadMoreItem",
+    "filePath": "node_modules/react-aria-components/src/GridList.tsx"
+  },
+  "codeProperties": {
+    "isLoading": {
+      "type": "boolean",
+      "name": "Is Loading"
+    }
+  }
+}

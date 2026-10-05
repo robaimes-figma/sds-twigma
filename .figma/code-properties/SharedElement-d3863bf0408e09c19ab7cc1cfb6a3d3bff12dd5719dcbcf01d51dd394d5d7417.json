@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SharedElement",
+    "filePath": "node_modules/react-aria-components/src/SharedElementTransition.tsx"
+  },
+  "codeProperties": {
+    "name": {
+      "type": "string",
+      "name": "Name",
+      "description": "The name used to match this element with its counterpart in another parent during transitions."
+    },
+    "isVisible": {
+      "type": "boolean",
+      "name": "Is Visible",
+      "description": "Whether the element is visible.",
+      "defaultValue": true
+    }
+  }
+}

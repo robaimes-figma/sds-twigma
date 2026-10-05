@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextArea",
+    "filePath": "node_modules/react-aria-components/src/TextArea.tsx"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the textarea is disabled."
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the textarea is read only."
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the textarea is required."
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "description": "Whether the textarea should automatically get focus when the page loads."
+    },
+    "rows": {
+      "type": "number",
+      "name": "Rows",
+      "description": "The number of visible text lines for the textarea."
+    },
+    "cols": {
+      "type": "number",
+      "name": "Cols",
+      "description": "The number of visible text columns for the textarea."
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "Placeholder text for the textarea."
+    }
+  }
+}

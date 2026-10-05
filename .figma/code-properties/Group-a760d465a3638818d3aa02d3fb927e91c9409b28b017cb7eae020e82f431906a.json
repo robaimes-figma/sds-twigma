@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Group",
+    "filePath": "node_modules/react-aria-components/src/Group.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "role": {
+      "type": "string",
+      "name": "Role",
+      "defaultValue": "group",
+      "options": [
+        "group",
+        "region",
+        "presentation"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "group": "Group",
+          "region": "Region",
+          "presentation": "Presentation"
+        }
+      }
+    }
+  }
+}

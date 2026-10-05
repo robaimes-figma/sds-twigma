@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SearchField",
+    "filePath": "node_modules/react-aria-components/src/SearchField.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "string",
+      "name": "Value",
+      "description": "The current value of the search field (controlled)."
+    },
+    "defaultValue": {
+      "type": "string",
+      "name": "Default Value",
+      "description": "The default value of the search field (uncontrolled)."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the search field is disabled.",
+      "defaultValue": false
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the search field is read only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the search field is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the search field is invalid."
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "description": "Whether the search field should be focused on mount."
+    }
+  }
+}

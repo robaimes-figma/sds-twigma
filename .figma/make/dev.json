@@ -2,30 +2,30 @@
   "pointAndEdit": {
     "priorityPaths": {
       "prefer": [
-        "src/App.tsx",
-        "src/examples/**/*.{tsx,ts}"
+        "src/showcase/Showcase.tsx",
+        "src/showcase/StoryCanvas.tsx",
+        "src/stories/**/*.stories.tsx",
+        "src/examples/**/*.tsx",
+        "src/App.tsx"
       ],
       "deprioritize": [
-        "src/ui/compositions/**/*.{tsx,ts}",
-        "src/ui/primitives/**/*.{tsx,ts}",
-        "src/ui/layout/**/*.{tsx,ts}",
-        "src/ui/icons/**/*.{tsx,ts}",
-        "src/ui/hooks/**/*.{tsx,ts}",
-        "src/ui/utils/**/*.{tsx,ts}",
-        "src/ui/**/*.css",
-        "src/data/**/*.{tsx,ts}"
+        "src/ui/primitives/**/*.tsx",
+        "src/ui/compositions/**/*.tsx",
+        "src/ui/layout/**/*.tsx",
+        "src/ui/icons/**/*.tsx",
+        "src/ui/hooks/**/*.tsx",
+        "src/data/**/*.tsx",
+        "src/data/**/*.ts",
+        "src/showcase/registry.ts"
       ],
       "exclude": [
         "src/figma/**",
-        "src/stories/**",
-        "scripts/**",
-        "**/*.stories.{tsx,ts,jsx,js}",
         "**/*.figma.ts",
         "**/*.figma.tsx",
         "**/*.figma.js",
         "**/*.figma.jsx",
-        "**/*.figma.batch.json",
-        "**/*.figma.batch.ts",
+        "**/*.figma.batch.*",
+        "scripts/**",
         ".storybook/**",
         "dist/**",
         "node_modules/**"
@@ -33,12 +33,11 @@
     },
     "libraryPaths": {
       "local": [
-        "src/ui/compositions/**/*.{tsx,ts}",
-        "src/ui/primitives/**/*.{tsx,ts}",
-        "src/ui/layout/**/*.{tsx,ts}",
-        "src/ui/icons/**/*.{tsx,ts}",
-        "src/ui/hooks/**/*.{tsx,ts}",
-        "src/ui/utils/**/*.{tsx,ts}"
+        "src/ui/primitives/**/*.tsx",
+        "src/ui/compositions/**/*.tsx",
+        "src/ui/layout/**/*.tsx",
+        "src/ui/icons/**/*.tsx",
+        "src/ui/hooks/**/*.tsx"
       ],
       "external": [
         "node_modules/react-aria-components/**"
@@ -50,55 +49,43 @@
     "exclusions": [
       {
         "glob": "src/figma/**",
-        "reason": "All files under src/figma/ are Figma Code Connect mapping files (.figma.ts, .figma.batch.ts, .figma.batch.json) and should never be selected as a UI point-and-edit source anchor."
-      },
-      {
-        "glob": "src/stories/**",
-        "reason": "Storybook story files are documentation/catalog artifacts, not active UI source anchors."
-      },
-      {
-        "glob": "**/*.stories.{tsx,ts,jsx,js}",
-        "reason": "Storybook story files located anywhere in the repo are not UI source anchors."
+        "reason": "All files under src/figma/ are Figma Code Connect mapping files (*.figma.ts, *.figma.batch.json, etc.) and must not be selected as point-and-edit source anchors."
       },
       {
         "glob": "**/*.figma.ts",
-        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+        "reason": "Figma Code Connect template files are mapping declarations, not UI source anchors."
       },
       {
         "glob": "**/*.figma.tsx",
-        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+        "reason": "Figma Code Connect template files are mapping declarations, not UI source anchors."
       },
       {
         "glob": "**/*.figma.js",
-        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+        "reason": "Figma Code Connect template files are mapping declarations, not UI source anchors."
       },
       {
         "glob": "**/*.figma.jsx",
-        "reason": "Figma Code Connect mapping files must not be selected as point-and-edit source anchors."
+        "reason": "Figma Code Connect template files are mapping declarations, not UI source anchors."
       },
       {
-        "glob": "**/*.figma.batch.json",
-        "reason": "Figma Code Connect batch mapping files must not be selected as point-and-edit source anchors."
-      },
-      {
-        "glob": "**/*.figma.batch.ts",
-        "reason": "Figma Code Connect batch mapping files must not be selected as point-and-edit source anchors."
+        "glob": "**/*.figma.batch.*",
+        "reason": "Figma Code Connect batch template files are mapping declarations, not UI source anchors."
       },
       {
         "glob": "scripts/**",
-        "reason": "Build/tooling scripts (icon generation, token extraction, dev-resource scripts) are not UI source anchors."
+        "reason": "Build and tooling scripts (token extraction, icon generation, dev-resource helpers) are not UI rendering surfaces."
       },
       {
         "glob": ".storybook/**",
-        "reason": "Storybook configuration files are tooling, not UI source anchors."
+        "reason": "Storybook configuration files are tooling infrastructure, not UI source anchors."
       },
       {
         "glob": "dist/**",
-        "reason": "Build output should never be edited as a source anchor."
+        "reason": "Build output — not source."
       },
       {
         "glob": "node_modules/**",
-        "reason": "Third-party installed packages are not source anchors for point-and-edit edits."
+        "reason": "External package dependencies — not editable project source."
       }
     ],
     "generated": {
@@ -106,9 +93,9 @@
       "source": "setup-agent.point-and-edit-path-classifier",
       "prompt": "same-turn-setup-subagent-v5",
       "model": "claude-sonnet-4-6",
-      "createdAt": "2026-09-29T00:00:00.000Z",
-      "confidence": 0.93,
-      "explanation": "The repo has a clear active-app layer in src/examples/ and src/App.tsx composing from a well-bounded local design-system library under src/ui/, with all Figma Code Connect files isolated under src/figma/ making classification unambiguous."
+      "createdAt": "2026-10-05T00:00:00.000Z",
+      "confidence": 0.92,
+      "explanation": "The repository structure is clear and well-organized: the active app is a Vite/React design-system showcase with a distinct showcase shell, Storybook stories as the primary catalog, a barrel-exported local primitive/composition/layout library under src/ui/, and explicit Figma Code Connect files under src/figma/ that must be excluded."
     }
   }
 }
