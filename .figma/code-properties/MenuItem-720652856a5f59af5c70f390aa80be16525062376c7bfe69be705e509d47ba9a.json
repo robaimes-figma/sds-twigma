@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuItem",
+    "filePath": "node_modules/react-aria-components/src/Menu.tsx"
+  },
+  "codeProperties": {
+    "textValue": {
+      "type": "string",
+      "name": "Text Value"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "href": {
+      "type": "string",
+      "name": "Href"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Grid",
+    "filePath": "src/ui/layout/Grid/Grid.tsx"
+  },
+  "codeProperties": {
+    "gap": {
+      "type": "string",
+      "name": "Gap",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "None"
+        }
+      }
+    },
+    "columnGap": {
+      "type": "string",
+      "name": "Column Gap",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "None"
+        }
+      }
+    },
+    "rowGap": {
+      "type": "string",
+      "name": "Row Gap",
+      "options": [
+        "",
+        "100",
+        "200",
+        "300",
+        "400",
+        "600",
+        "800",
+        "1200",
+        "1600"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "100": "100",
+          "200": "200",
+          "300": "300",
+          "400": "400",
+          "600": "600",
+          "800": "800",
+          "1200": "1200",
+          "1600": "1600",
+          "": "None"
+        }
+      }
+    },
+    "flow": {
+      "type": "string",
+      "name": "Flow",
+      "options": [
+        "",
+        "row",
+        "column",
+        "row dense",
+        "column dense"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "None",
+          "row": "Row",
+          "column": "Column",
+          "row dense": "Row Dense",
+          "column dense": "Column Dense"
+        }
+      }
+    },
+    "container": {
+      "type": "boolean",
+      "name": "Container",
+      "defaultValue": false
+    },
+    "justifyItems": {
+      "type": "string",
+      "name": "Justify Items",
+      "defaultValue": "stretch",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch"
+        }
+      }
+    },
+    "alignItems": {
+      "type": "string",
+      "name": "Align Items",
+      "defaultValue": "stretch",
+      "options": [
+        "start",
+        "end",
+        "center",
+        "stretch"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "end": "End",
+          "center": "Center",
+          "stretch": "Stretch"
+        }
+      }
+    }
+  }
+}

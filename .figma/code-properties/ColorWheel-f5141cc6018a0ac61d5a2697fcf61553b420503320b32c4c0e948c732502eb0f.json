@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ColorWheel",
+    "filePath": "node_modules/react-aria-components/src/ColorWheel.tsx"
+  },
+  "codeProperties": {
+    "outerRadius": {
+      "type": "number",
+      "name": "Outer Radius",
+      "description": "The outer radius of the color wheel."
+    },
+    "innerRadius": {
+      "type": "number",
+      "name": "Inner Radius",
+      "description": "The inner radius of the color wheel."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the color wheel is disabled.",
+      "defaultValue": false
+    }
+  }
+}

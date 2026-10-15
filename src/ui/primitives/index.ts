@@ -1,5 +1,6 @@
 export * from "./Accordion/Accordion";
 export * from "./Avatar/Avatar";
+export * from "./Breadcrumb/Breadcrumb";
 export * from "./Button/Button";
 export * from "./Checkbox/Checkbox";
 export * from "./Dialog/Dialog";

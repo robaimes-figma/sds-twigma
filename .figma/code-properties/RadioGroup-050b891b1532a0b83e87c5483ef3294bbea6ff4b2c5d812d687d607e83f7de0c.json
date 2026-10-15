@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "RadioGroup",
+    "filePath": "src/ui/primitives/Radio/Radio.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label displayed above the radio group."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the label."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "Validation error message displayed in the field."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the radio group is disabled."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the radio group is required."
+    }
+  }
+}

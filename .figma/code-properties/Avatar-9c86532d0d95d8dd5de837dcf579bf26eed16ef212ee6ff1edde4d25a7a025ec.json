@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Avatar",
+    "filePath": "src/ui/primitives/Avatar/Avatar.tsx"
+  },
+  "codeProperties": {
+    "src": {
+      "type": "string",
+      "name": "Image Source",
+      "description": "URL of the avatar image."
+    },
+    "initials": {
+      "type": "string",
+      "name": "Initials",
+      "description": "Initials to display when no image is provided."
+    },
+    "alt": {
+      "type": "string",
+      "name": "Alt Text",
+      "description": "Alternative text for the avatar image.",
+      "defaultValue": ""
+    },
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "medium",
+      "options": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "small": "Small",
+          "medium": "Medium",
+          "large": "Large"
+        }
+      }
+    },
+    "square": {
+      "type": "boolean",
+      "name": "Square",
+      "description": "Whether the avatar is square-shaped instead of circular.",
+      "defaultValue": false
+    }
+  }
+}

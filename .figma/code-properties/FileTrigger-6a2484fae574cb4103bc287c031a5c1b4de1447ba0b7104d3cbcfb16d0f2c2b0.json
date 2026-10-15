@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "FileTrigger",
+    "filePath": "node_modules/react-aria-components/src/FileTrigger.tsx"
+  },
+  "codeProperties": {
+    "allowsMultiple": {
+      "type": "boolean",
+      "name": "Allows Multiple",
+      "description": "Whether multiple files can be selected."
+    },
+    "acceptDirectory": {
+      "type": "boolean",
+      "name": "Accept Directory",
+      "description": "Enables the selection of directories instead of individual files."
+    },
+    "defaultCamera": {
+      "type": "string",
+      "name": "Default Camera",
+      "description": "Specifies the use of a media capture mechanism to capture the media on the spot.",
+      "options": [
+        "",
+        "user",
+        "environment"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "user": "User (Front)",
+          "environment": "Environment (Rear)"
+        }
+      }
+    }
+  }
+}

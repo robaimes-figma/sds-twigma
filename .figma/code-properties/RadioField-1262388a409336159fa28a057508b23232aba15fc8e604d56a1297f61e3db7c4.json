@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "RadioField",
+    "filePath": "src/ui/primitives/Radio/Radio.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label for this radio option."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the radio option."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether this radio option is disabled."
+    }
+  }
+}

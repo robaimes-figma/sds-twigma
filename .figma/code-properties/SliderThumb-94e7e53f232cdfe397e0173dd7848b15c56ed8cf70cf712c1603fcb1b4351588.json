@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SliderThumb",
+    "filePath": "node_modules/react-aria-components/src/Slider.tsx"
+  },
+  "codeProperties": {
+    "index": {
+      "type": "number",
+      "name": "Index",
+      "description": "The index of this thumb in a multi-thumb slider.",
+      "defaultValue": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Verifies the dev server is reachable. Runs after dev on each open.
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+set -a
+. "$(dirname "$0")/env"
+set +a
+
+URL="http://localhost:${PORT}"
+
+# Poll the server for up to ~30s; Vite usually answers within a second or two.
+for i in $(seq 1 30); do
+  if curl -fsS -o /dev/null "$URL"; then
+    echo "verify: dev server is up at $URL"
+    exit 0
+  fi
+  sleep 1
+done
+
+echo "verify: dev server did not respond at $URL" >&2
+exit 1

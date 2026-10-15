@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogBody",
+    "filePath": "src/ui/primitives/Dialog/Dialog.tsx"
+  },
+  "codeProperties": {
+    "bleed": {
+      "type": "boolean",
+      "name": "Bleed",
+      "description": "Whether the dialog body bleeds to the edges of the dialog.",
+      "defaultValue": false
+    }
+  }
+}

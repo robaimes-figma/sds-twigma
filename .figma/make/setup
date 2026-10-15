@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Runs once on first open. System-level prerequisites, cached after first run.
+set -euo pipefail
+
+# This project only needs Node.js + npm, which the host provides.
+# Report versions so first-run logs are self-explanatory.
+echo "Node: $(node --version)"
+echo "npm:  $(npm --version)"
+echo "setup: no additional system dependencies required."

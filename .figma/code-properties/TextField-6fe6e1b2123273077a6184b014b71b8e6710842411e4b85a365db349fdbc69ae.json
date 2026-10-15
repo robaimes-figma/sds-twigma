@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TextField",
+    "filePath": "node_modules/react-aria-components/src/TextField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Is Disabled",
+      "description": "Whether the text field is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Is Read Only",
+      "description": "Whether the text field is read only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Is Required",
+      "description": "Whether the text field is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Is Invalid",
+      "description": "Whether the value is invalid."
+    },
+    "value": {
+      "type": "string",
+      "name": "Value",
+      "description": "The current value of the text field (controlled)."
+    },
+    "defaultValue": {
+      "type": "string",
+      "name": "Default Value",
+      "description": "The default value of the text field (uncontrolled)."
+    },
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "description": "The type of the input element.",
+      "options": [
+        "text",
+        "search",
+        "url",
+        "tel",
+        "email",
+        "password"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "text": "Text",
+          "search": "Search",
+          "url": "URL",
+          "tel": "Tel",
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "inputMode": {
+      "type": "string",
+      "name": "Input Mode",
+      "description": "Hints at the type of data that might be entered by the user.",
+      "options": [
+        "none",
+        "text",
+        "tel",
+        "url",
+        "email",
+        "numeric",
+        "decimal",
+        "search"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "none": "None",
+          "text": "Text",
+          "tel": "Tel",
+          "url": "URL",
+          "email": "Email",
+          "numeric": "Numeric",
+          "decimal": "Decimal",
+          "search": "Search"
+        }
+      }
+    }
+  }
+}

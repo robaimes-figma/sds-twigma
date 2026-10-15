@@ -1,0 +1,85 @@
+{
+  "pointAndEdit": {
+    "priorityPaths": {
+      "prefer": [
+        "src/examples/**/*.{tsx,ts}",
+        "src/App.tsx"
+      ],
+      "deprioritize": [
+        "src/ui/compositions/**/*.{tsx,ts,css}",
+        "src/ui/primitives/**/*.{tsx,ts,css}",
+        "src/ui/layout/**/*.{tsx,ts,css}",
+        "src/ui/hooks/**/*.{tsx,ts}",
+        "src/ui/utils/**/*.{tsx,ts}"
+      ],
+      "exclude": [
+        "src/figma/**",
+        "src/stories/**",
+        "src/ui/icons/**",
+        "src/ui/images/**",
+        "src/data/**",
+        "scripts/**",
+        "dist/**",
+        ".storybook/**"
+      ]
+    },
+    "libraryPaths": {
+      "local": [
+        "src/ui/compositions/**/*.{tsx,ts}",
+        "src/ui/primitives/**/*.{tsx,ts}",
+        "src/ui/layout/**/*.{tsx,ts}",
+        "src/ui/hooks/**/*.{tsx,ts}",
+        "src/ui/utils/**/*.{tsx,ts}"
+      ],
+      "external": [
+        "node_modules/react-aria-components/**"
+      ]
+    },
+    "pathClassification": {
+      "classifier": "sonnet"
+    },
+    "exclusions": [
+      {
+        "glob": "src/figma/**",
+        "reason": "All files under src/figma/ are Figma Code Connect mapping files (*.figma.ts, *.figma.batch.ts, *.figma.batch.json) — they describe Figma-to-code mappings and are not UI source anchors."
+      },
+      {
+        "glob": "src/stories/**",
+        "reason": "Storybook story files are documentation/testing harnesses, not the active UI implementation that a point-and-edit change should anchor to."
+      },
+      {
+        "glob": "src/ui/icons/**",
+        "reason": "Icon components are generated SVG wrappers with no meaningful UI composition; they are static visual assets, not edit targets for UI-originated changes."
+      },
+      {
+        "glob": "src/ui/images/**",
+        "reason": "Static image assets are not UI source anchors."
+      },
+      {
+        "glob": "src/data/**",
+        "reason": "Data layer files (contexts, providers, services, hooks, types) do not participate in rendering the active UI surface and are not valid point-and-edit source anchors."
+      },
+      {
+        "glob": "scripts/**",
+        "reason": "Build and tooling scripts (token extraction, icon generation, dev-resource management) are not UI source anchors."
+      },
+      {
+        "glob": "dist/**",
+        "reason": "Build output should never be selected as a source anchor."
+      },
+      {
+        "glob": ".storybook/**",
+        "reason": "Storybook configuration files are tooling, not UI source anchors."
+      }
+    ],
+    "generated": {
+      "schemaVersion": 2,
+      "source": "setup-agent.point-and-edit-path-classifier",
+      "prompt": "same-turn-setup-subagent-v5",
+      "model": "claude-sonnet-4-6",
+      "createdAt": "2026-10-15T00:00:00.000Z",
+      "confidence": 0.92,
+      "explanation": "The repository has a clear single-app root (src/App.tsx + src/examples/) rendered atop a well-structured local design system (src/ui/), with all Figma Code Connect files, Storybook stories, generated icons, and data/service layers straightforwardly excluded."
+    }
+  }
+}

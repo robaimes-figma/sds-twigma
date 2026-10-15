@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PricingCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "heading": {
+      "name": "Heading",
+      "description": "The heading for the price point.",
+      "type": "string"
+    },
+    "price": {
+      "name": "Price",
+      "description": "The price excluding currency.",
+      "type": "string"
+    },
+    "priceCurrency": {
+      "name": "Price Currency",
+      "description": "The price currency.",
+      "type": "string"
+    },
+    "priceLabel": {
+      "name": "Price Label",
+      "description": "The text for price per.",
+      "type": "string",
+      "defaultValue": "/ mo"
+    },
+    "size": {
+      "name": "Size",
+      "description": "Size of the pricing.",
+      "type": "string",
+      "defaultValue": "large",
+      "options": [
+        "",
+        "large"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "large": "Large"
+        }
+      }
+    },
+    "variant": {
+      "name": "Variant",
+      "description": "Card variant.",
+      "type": "string",
+      "defaultValue": "stroke",
+      "options": [
+        "default",
+        "stroke",
+        "brand"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "stroke": "Stroke",
+          "brand": "Brand"
+        }
+      }
+    },
+    "action": {
+      "name": "Action",
+      "description": "The text labeling the action button.",
+      "type": "string"
+    },
+    "actionVariant": {
+      "name": "Action Variant",
+      "description": "The action variant.",
+      "type": "string",
+      "defaultValue": "primary",
+      "options": [
+        "",
+        "primary",
+        "neutral",
+        "subtle"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "primary": "Primary",
+          "neutral": "Neutral",
+          "subtle": "Subtle"
+        }
+      }
+    },
+    "actionDisabled": {
+      "name": "Action Disabled",
+      "description": "The action is disabled.",
+      "type": "boolean",
+      "defaultValue": false
+    },
+    "interval": {
+      "name": "Interval",
+      "description": "The billing interval.",
+      "type": "string",
+      "options": [
+        "month",
+        "year"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "month": "Month",
+          "year": "Year"
+        }
+      }
+    },
+    "sku": {
+      "name": "SKU",
+      "description": "The sku for the tier.",
+      "type": "string"
+    }
+  }
+}

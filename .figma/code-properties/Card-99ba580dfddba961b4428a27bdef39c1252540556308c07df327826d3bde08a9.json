@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Card",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "align": {
+      "name": "Align",
+      "description": "The alignment of the card content.",
+      "type": "string",
+      "defaultValue": "start",
+      "options": [
+        "start",
+        "center",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "center": "Center",
+          "end": "End"
+        }
+      }
+    },
+    "direction": {
+      "name": "Direction",
+      "description": "The initial direction of the card. All cards become vertical on mobile.",
+      "type": "string",
+      "defaultValue": "vertical",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "padding": {
+      "name": "Padding",
+      "description": "Padding can be none, 600, or 800.",
+      "type": "string",
+      "options": [
+        "",
+        "600",
+        "800"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "600": "600",
+          "800": "800",
+          "": "Default"
+        }
+      }
+    },
+    "variant": {
+      "name": "Variant",
+      "description": "Style variation of the card.",
+      "type": "string",
+      "defaultValue": "default",
+      "options": [
+        "default",
+        "stroke",
+        "brand"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "default": "Default",
+          "stroke": "Stroke",
+          "brand": "Brand"
+        }
+      }
+    }
+  }
+}

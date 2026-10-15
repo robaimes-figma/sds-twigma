@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Form",
+    "filePath": "src/ui/primitives/Fieldset/Fieldset.tsx"
+  },
+  "codeProperties": {
+    "singleLine": {
+      "type": "boolean",
+      "name": "Single Line",
+      "description": "Whether the form displays its fields in a single line."
+    }
+  }
+}

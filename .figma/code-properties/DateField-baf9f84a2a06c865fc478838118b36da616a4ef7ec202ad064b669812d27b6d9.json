@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DateField",
+    "filePath": "node_modules/react-aria-components/src/DateField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the date field is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the date field is read only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the date field is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the date field is in an invalid state."
+    },
+    "hourCycle": {
+      "type": "number",
+      "name": "Hour Cycle",
+      "description": "Whether to display the time in 12 or 24 hour format.",
+      "options": [
+        12,
+        24
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "12": "12-hour",
+          "24": "24-hour"
+        }
+      }
+    },
+    "granularity": {
+      "type": "string",
+      "name": "Granularity",
+      "description": "Determines the smallest unit that is displayed in the date field.",
+      "options": [
+        "day",
+        "hour",
+        "minute",
+        "second"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "day": "Day",
+          "hour": "Hour",
+          "minute": "Minute",
+          "second": "Second"
+        }
+      }
+    },
+    "hideTimeZone": {
+      "type": "boolean",
+      "name": "Hide Time Zone",
+      "description": "Whether to hide the time zone abbreviation."
+    },
+    "shouldForceLeadingZeros": {
+      "type": "boolean",
+      "name": "Force Leading Zeros",
+      "description": "Whether to always show leading zeros in the month, day, and hour fields."
+    }
+  }
+}

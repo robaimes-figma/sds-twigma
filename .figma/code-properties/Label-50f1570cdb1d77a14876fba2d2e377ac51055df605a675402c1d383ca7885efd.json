@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Label",
+    "filePath": "node_modules/react-aria-components/src/Label.tsx"
+  },
+  "codeProperties": {
+    "elementType": {
+      "type": "string",
+      "name": "Element Type",
+      "defaultValue": "label"
+    }
+  }
+}

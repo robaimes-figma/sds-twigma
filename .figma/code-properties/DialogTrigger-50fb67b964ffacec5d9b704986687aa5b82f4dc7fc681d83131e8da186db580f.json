@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogTrigger",
+    "filePath": "node_modules/react-aria-components/src/Dialog.tsx"
+  },
+  "codeProperties": {
+    "isOpen": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Whether the overlay is open by default (controlled)."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the overlay is open by default (uncontrolled)."
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ListBox",
+    "filePath": "node_modules/react-aria-components/src/ListBox.tsx"
+  },
+  "codeProperties": {
+    "selectionBehavior": {
+      "type": "string",
+      "name": "Selection Behavior",
+      "options": [
+        "toggle",
+        "replace"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "toggle": "Toggle",
+          "replace": "Replace"
+        }
+      }
+    },
+    "layout": {
+      "type": "string",
+      "name": "Layout",
+      "defaultValue": "stack",
+      "options": [
+        "stack",
+        "grid"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "stack": "Stack",
+          "grid": "Grid"
+        }
+      }
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "vertical",
+      "options": [
+        "vertical",
+        "horizontal"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "vertical": "Vertical",
+          "horizontal": "Horizontal"
+        }
+      }
+    }
+  }
+}

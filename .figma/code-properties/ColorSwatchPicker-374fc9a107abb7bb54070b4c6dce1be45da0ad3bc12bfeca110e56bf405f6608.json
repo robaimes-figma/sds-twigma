@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ColorSwatchPicker",
+    "filePath": "node_modules/react-aria-components/src/ColorSwatchPicker.tsx"
+  },
+  "codeProperties": {
+    "layout": {
+      "type": "string",
+      "name": "Layout",
+      "defaultValue": "grid",
+      "options": [
+        "grid",
+        "stack"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "grid": "Grid",
+          "stack": "Stack"
+        }
+      }
+    }
+  }
+}

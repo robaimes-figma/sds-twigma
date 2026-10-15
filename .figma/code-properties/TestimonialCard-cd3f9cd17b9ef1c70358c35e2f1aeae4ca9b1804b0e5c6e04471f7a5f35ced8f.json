@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TestimonialCard",
+    "filePath": "src/ui/compositions/Cards/Cards.tsx"
+  },
+  "codeProperties": {
+    "heading": {
+      "name": "Heading",
+      "description": "The testimonial quote.",
+      "type": "string"
+    },
+    "name": {
+      "name": "Name",
+      "description": "The name of the author.",
+      "type": "string"
+    },
+    "username": {
+      "name": "Username",
+      "description": "The username of the author.",
+      "type": "string"
+    }
+  }
+}

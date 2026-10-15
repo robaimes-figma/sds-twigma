@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CheckboxGroup",
+    "filePath": "src/ui/primitives/Checkbox/Checkbox.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "Label displayed above the checkbox group."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the label."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "Validation error message to display."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Is Disabled",
+      "description": "Whether the checkbox group is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Is Read Only",
+      "description": "Whether the checkbox group is read-only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Is Required",
+      "description": "Whether the checkbox group is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Is Invalid",
+      "description": "Whether the checkbox group is in an invalid state."
+    }
+  }
+}

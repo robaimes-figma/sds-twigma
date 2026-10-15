@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Switch",
+    "filePath": "node_modules/react-aria-components/src/Switch.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Is Disabled",
+      "description": "Whether the switch is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Is Read Only",
+      "description": "Whether the switch is read only."
+    },
+    "defaultSelected": {
+      "type": "boolean",
+      "name": "Default Selected",
+      "description": "Whether the switch is selected by default (uncontrolled)."
+    },
+    "isSelected": {
+      "type": "boolean",
+      "name": "Is Selected",
+      "description": "Whether the switch is selected (controlled)."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Icon",
+    "filePath": "src/ui/primitives/Icon/Icon.tsx"
+  },
+  "codeProperties": {
+    "size": {
+      "type": "string",
+      "name": "Size",
+      "defaultValue": "16",
+      "options": [
+        "14",
+        "16",
+        "20",
+        "24",
+        "32",
+        "40",
+        "48"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "14": "14px",
+          "16": "16px",
+          "20": "20px",
+          "24": "24px",
+          "32": "32px",
+          "40": "40px",
+          "48": "48px"
+        }
+      }
+    }
+  }
+}

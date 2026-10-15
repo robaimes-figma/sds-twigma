@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CheckboxField",
+    "filePath": "src/ui/primitives/Checkbox/Checkbox.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "Label for the checkbox field."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the checkbox."
+    },
+    "errorMessage": {
+      "type": "string",
+      "name": "Error Message",
+      "description": "Validation error message to display."
+    },
+    "isSelected": {
+      "type": "boolean",
+      "name": "Is Selected",
+      "description": "Whether the checkbox is selected."
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "name": "Is Indeterminate",
+      "description": "Whether the checkbox is in an indeterminate state."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Is Disabled",
+      "description": "Whether the checkbox is disabled."
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Is Read Only",
+      "description": "Whether the checkbox is read-only."
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Is Required",
+      "description": "Whether the checkbox is required."
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Is Invalid",
+      "description": "Whether the checkbox is in an invalid state."
+    }
+  }
+}

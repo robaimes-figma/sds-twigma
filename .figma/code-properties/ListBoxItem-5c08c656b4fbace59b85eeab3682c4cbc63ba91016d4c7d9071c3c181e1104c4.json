@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ListBoxItem",
+    "filePath": "node_modules/react-aria-components/src/ListBox.tsx"
+  },
+  "codeProperties": {
+    "textValue": {
+      "type": "string",
+      "name": "Text Value"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "href": {
+      "type": "string",
+      "name": "Href"
+    }
+  }
+}

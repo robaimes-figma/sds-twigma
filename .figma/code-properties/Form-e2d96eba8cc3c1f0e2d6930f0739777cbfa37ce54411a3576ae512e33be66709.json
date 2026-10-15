@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Form",
+    "filePath": "node_modules/react-aria-components/src/Form.tsx"
+  },
+  "codeProperties": {
+    "validationBehavior": {
+      "type": "string",
+      "name": "Validation Behavior",
+      "description": "Whether to use native HTML form validation or ARIA-based validation.",
+      "defaultValue": "native",
+      "options": [
+        "aria",
+        "native"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "aria": "ARIA",
+          "native": "Native"
+        }
+      }
+    }
+  }
+}

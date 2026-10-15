@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboBox",
+    "filePath": "node_modules/react-aria-components/src/ComboBox.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the combo box is disabled.",
+      "defaultValue": false
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the combo box is invalid.",
+      "defaultValue": false
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the combo box is required.",
+      "defaultValue": false
+    },
+    "allowsCustomValue": {
+      "type": "boolean",
+      "name": "Allows Custom Value",
+      "description": "Whether the combo box allows a value that is not in the list."
+    },
+    "allowsEmptyCollection": {
+      "type": "boolean",
+      "name": "Allows Empty Collection",
+      "description": "Whether the combo box allows the menu to be open when the collection is empty."
+    },
+    "formValue": {
+      "type": "string",
+      "name": "Form Value",
+      "description": "Whether the text or key of the selected item is submitted as part of an HTML form.",
+      "defaultValue": "key",
+      "options": [
+        "text",
+        "key"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "text": "Text",
+          "key": "Key"
+        }
+      }
+    },
+    "menuTrigger": {
+      "type": "string",
+      "name": "Menu Trigger",
+      "description": "The interaction required to display the combo box menu.",
+      "options": [
+        "focus",
+        "input",
+        "manual"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "focus": "Focus",
+          "input": "Input",
+          "manual": "Manual"
+        }
+      }
+    }
+  }
+}

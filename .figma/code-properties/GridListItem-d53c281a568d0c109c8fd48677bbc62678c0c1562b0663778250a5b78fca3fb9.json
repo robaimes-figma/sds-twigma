@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "GridListItem",
+    "filePath": "node_modules/react-aria-components/src/GridList.tsx"
+  },
+  "codeProperties": {
+    "textValue": {
+      "type": "string",
+      "name": "Text Value"
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    }
+  }
+}

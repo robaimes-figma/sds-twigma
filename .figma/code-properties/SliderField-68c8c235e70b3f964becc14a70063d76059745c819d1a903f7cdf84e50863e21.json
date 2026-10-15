@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SliderField",
+    "filePath": "src/ui/primitives/Slider/Slider.tsx"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label displayed above the slider."
+    },
+    "description": {
+      "type": "string",
+      "name": "Description",
+      "description": "Helper text displayed below the slider."
+    },
+    "showOutput": {
+      "type": "boolean",
+      "name": "Show Output",
+      "description": "Whether to display the current value output next to the label."
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the slider is disabled."
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value",
+      "description": "The minimum value of the slider."
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value",
+      "description": "The maximum value of the slider."
+    },
+    "step": {
+      "type": "number",
+      "name": "Step",
+      "description": "The step increment of the slider."
+    }
+  }
+}

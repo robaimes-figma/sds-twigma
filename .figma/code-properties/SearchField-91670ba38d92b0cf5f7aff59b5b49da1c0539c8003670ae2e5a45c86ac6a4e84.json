@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SearchField",
+    "filePath": "node_modules/react-aria-components/src/SearchField.tsx"
+  },
+  "codeProperties": {
+    "isDisabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "isRequired": {
+      "type": "boolean",
+      "name": "Required"
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "name": "Read Only"
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "name": "Invalid"
+    },
+    "value": {
+      "type": "string",
+      "name": "Value"
+    },
+    "defaultValue": {
+      "type": "string",
+      "name": "Default Value"
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus"
+    }
+  }
+}

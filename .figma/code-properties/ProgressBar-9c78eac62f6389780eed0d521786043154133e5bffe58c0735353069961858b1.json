@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ProgressBar",
+    "filePath": "node_modules/react-aria-components/src/ProgressBar.tsx"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "defaultValue": 0
+    },
+    "minValue": {
+      "type": "number",
+      "name": "Min Value",
+      "defaultValue": 0
+    },
+    "maxValue": {
+      "type": "number",
+      "name": "Max Value",
+      "defaultValue": 100
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "name": "Indeterminate",
+      "defaultValue": false
+    }
+  }
+}
